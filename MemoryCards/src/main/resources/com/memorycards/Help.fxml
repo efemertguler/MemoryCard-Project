@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to top, #4481eb 0%, #04befe 100%);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.memorycards.HelpController">
+   <children>
+      <AnchorPane layoutX="150.0" layoutY="50.0" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: rgba( 255, 255, 255, 0.5); -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="146.0" layoutY="24.0" style="-fx-font-family: Chewy; -fx-font-size: 14;" text="Memory Card Game - Flipping Tiles">
+               <font>
+                  <Font name="Chalkboard" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="42.0" prefHeight="65.0" prefWidth="450.0" text="- Memory Card Game is an intelligence-memory product game that is used to strengthen and use memory. " textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="84.0" prefHeight="65.0" prefWidth="450.0" text="- The aim of this game is to match the same cards in the given time and make a challenge with the mind." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="127.0" prefHeight="65.0" prefWidth="450.0" text="- There are 4x4 cards in our game and the cards are shuffled at the beginning of each new game." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="170.0" prefHeight="65.0" prefWidth="450.0" text="- The number of cards and the icons found are fixed and the duration is 2 minutes per play." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="213.0" prefHeight="65.0" prefWidth="450.0" text="- If all the cards are matched within/before the timer ends, you win the game and a notification will appear that you have won." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="255.0" prefHeight="65.0" prefWidth="450.0" text="- Otherwise, you will be declared lost. The voices will appear according to the losing and winning situation." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="300.0" prefHeight="65.0" prefWidth="450.0" text="- Each card has only 1 match. Once the cards are matched correctly, the matching cards remain face up and blur, while the other cards are closed with a question mark on their face facing you." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="348.0" prefHeight="65.0" prefWidth="450.0" text="- At the end of the game, you are told how many moves you have played with the cards." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="389.0" prefHeight="65.0" prefWidth="450.0" text="- After finishing and playing, your result or information won't save. It is going to start over again. We wish you good luck!" textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="backBtn" alignment="CENTER" layoutX="409.0" layoutY="441.0" mnemonicParsing="false" onAction="#goBack" prefHeight="26.0" prefWidth="57.0" style="-fx-background-color: rgba( 255, 255, 255, 0.9); -fx-background-radius: 10; -fx-font-family: Chewy; -fx-font-size: 13;" text="Back">
+               <font>
+                  <Font name="Chalkboard" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
